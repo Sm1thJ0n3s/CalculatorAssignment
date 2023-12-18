@@ -96,6 +96,9 @@ function combiningAll (){
             problemDisplay.innerText = answer;
         }
     }
+    if (answer === Infinity){
+        problemDisplay.innerText = "ERROR";
+    }
     
     console.log("Hellooooo");
 }
